@@ -3,6 +3,7 @@ package org.d3if0054.assesment1
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.TextUtils
 import android.util.Log
 import android.view.LayoutInflater
 import android.widget.Toast
@@ -24,7 +25,17 @@ class MainActivity : AppCompatActivity() {
     private fun hitungKpk(){
         //mengambil angka dari inputan user
         val angkaSatu = binding.angkaSatuText.text.toString()
+        if(TextUtils.isEmpty(angkaSatu)){
+            Toast.makeText(this,R.string.angka_invalid, Toast.LENGTH_LONG).show()
+            return
+        }
         val angkaDua = binding.angkaDuaText.text.toString()
+        if(TextUtils.isEmpty(angkaDua)){
+            Toast.makeText(this,R.string.angka_invalid, Toast.LENGTH_LONG).show()
+            return
+
+        }
+
 
         //merubah angka menjadi int
         val first = angkaSatu.toInt()
@@ -52,7 +63,15 @@ class MainActivity : AppCompatActivity() {
     private fun hitungFpb(){
         //mengambil angka dari yg di inputkan user
         val angkaSatu = binding.angkaSatuText.text.toString()
+        if(TextUtils.isEmpty(angkaSatu)){
+            Toast.makeText(this,R.string.angka_invalid, Toast.LENGTH_LONG).show()
+            return
+        }
         val angkaDua = binding.angkaDuaText.text.toString()
+        if(TextUtils.isEmpty(angkaDua)){
+            Toast.makeText(this,R.string.angka_invalid, Toast.LENGTH_LONG).show()
+            return
+        }
 
 
         //angka di rubah dari string ke int
