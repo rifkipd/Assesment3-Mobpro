@@ -1,12 +1,24 @@
 <resources>
-    <string name="app_name">Mencari KPK dan FPB</string>
-    <string name="introText">Aplikasi ini dibuat  untuk mencari nilai FPB atau KPK dari 2 nilai yang kamu Inputkan !</string>
+    <string name="app_name">Kalkulator Matematika</string>
+    <string name="intro">Aplikasi ini dibuat  untuk memudahkan kalian dalam berhitung!</string>
+    <string name="introHitung1">Ini adalah halaman  untuk mencari nilai FPB atau KPK </string>
+    <string name="introHitung2">Ini adalah halaman untuk mencari nilai faktorisasi</string>
+    <string name="introHitung3">Ini adalah halaman untuk melihat apakah angka tersebut prima atau bukan</string>
     <string name="textHint1">Masukan angka ke-1</string>
     <string name="textHint2">Masukan angka ke-2</string>
+    <string name="faktorHint">Masukan angka</string>
     <string name="hasilText">Hasil nya adalah :</string>
     <string name="hasilText_fpb">Hasil FPB nya adalah : %1$s</string>
     <string name="hasilText_kpk">Hasil KPK nya adalah : %1$s</string>
+    <string name="hasilText_faktor">Hasil Faktorial nya adalah : %1$s</string>
+    <string name="hasilText_Prima">Bilangan Prima nya adalah : %1$s</string>
     <string name="hitungBtn">Hitung KPK</string>
     <string name="fpbButtonRes">Hitung FPB</string>
+    <string name="faktorBtn">Hitung</string>
     <string name="angka_invalid">Masukan Angka</string>
+    <string name="hitung1">Mencari KPK dan FPB</string>
+    <string name="go">Go!</string>
+    <string name="kpkfpb">Kpk/Fpb</string>
+    <string name="faktor">Faktor</string>
+    <string name="prima">Prima</string>
 </resources>
