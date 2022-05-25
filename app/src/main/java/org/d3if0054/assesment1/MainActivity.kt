@@ -4,8 +4,6 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
-import android.util.Log
-import android.view.LayoutInflater
 import android.widget.Toast
 import org.d3if0054.assesment1.databinding.ActivityMainBinding
 
