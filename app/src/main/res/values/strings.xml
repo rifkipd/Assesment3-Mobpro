@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Aplikasi Serbaguna</string>
+    <string name="app_name">Aplikasi Hitung dan List Film</string>
     <string name="intro">Aplikasi ini dibuat  untuk memudahkan kalian dalam berhitung!</string>
     <string name="introHitung1">Ini adalah halaman  untuk mencari nilai FPB atau KPK </string>
     <string name="introHitung2">Ini adalah halaman untuk mencari nilai faktorisasi</string>
