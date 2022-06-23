@@ -1,23 +1,18 @@
-package org.d3if0054.assesment1
+package org.d3if0054.assesment1.perhitungan
 
-import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.text.TextUtils
-import android.util.Log
-import android.view.LayoutInflater
-import android.widget.Toast
 import androidx.fragment.app.Fragment
-import org.d3if0054.assesment1.databinding.ActivityMainBinding
+import org.d3if0054.assesment1.R
+import org.d3if0054.assesment1.databinding.ActivityHitungBinding
 
-class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+class HitungActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityHitungBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityHitungBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.goBtn1.setOnClickListener {

@@ -1,11 +1,11 @@
-package org.d3if0054.assesment1
+package org.d3if0054.assesment1.perhitungan
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.fragment.app.Fragment
+import org.d3if0054.assesment1.R
 import org.d3if0054.assesment1.databinding.FragmentFaktorisasiBinding
 
 
