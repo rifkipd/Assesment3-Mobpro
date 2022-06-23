@@ -3,7 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Studio Project/Assesment1/app/src/main/res/drawable/kpkfpb_image.xml" value="0.22" />
+        <entry key="..\:/Android Studio Project/Assesment1/app/src/main/res/layout/activity_hitung.xml" value="0.1" />
         <entry key="..\:/Android Studio Project/Assesment1/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android Studio Project/Assesment1/app/src/main/res/layout/activity_movie.xml" value="0.22" />
+        <entry key="..\:/Android Studio Project/Assesment1/app/src/main/res/layout/fragment_faktorisasi.xml" value="0.25" />
+        <entry key="..\:/Android Studio Project/Assesment1/app/src/main/res/layout/fragment_hitungkpk.xml" value="0.18670886075949367" />
+        <entry key="..\:/Android Studio Project/Assesment1/app/src/main/res/layout/fragment_prima.xml" value="0.24070115433946132" />
+        <entry key="..\:/Android Studio Project/Assesment1/app/src/main/res/layout/fragment_test.xml" value="0.24070115433946132" />
+        <entry key="..\:/Android Studio Project/Assesment1/app/src/main/res/layout/fragment_testing.xml" value="0.24070115433946132" />
+        <entry key="..\:/Android Studio Project/Assesment1/app/src/main/res/layout/hitung1Fragment.xml" value="0.29322916666666665" />
+        <entry key="..\:/Android Studio Project/Assesment1/app/src/main/res/layout/hitung1_fragment.xml" value="0.29322916666666665" />
+        <entry key="..\:/Android Studio Project/Assesment1/app/src/main/res/layout/item_list.xml" value="0.25" />
       </map>
     </option>
   </component>

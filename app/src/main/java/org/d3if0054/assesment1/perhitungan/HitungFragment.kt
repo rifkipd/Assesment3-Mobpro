@@ -1,40 +1,45 @@
-package org.d3if0054.assesment1
+package org.d3if0054.assesment1.perhitungan
 
-import android.annotation.SuppressLint
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.TextUtils
-import android.util.Log
 import android.view.LayoutInflater
-import android.widget.Toast
-import org.d3if0054.assesment1.databinding.ActivityMainBinding
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import org.d3if0054.assesment1.R
+import org.d3if0054.assesment1.databinding.FragmentHitungkpkBinding
 
-class MainActivity : AppCompatActivity() {
+class HitungFragment:Fragment(R.layout.fragment_hitungkpk) {
+    private lateinit var binding: FragmentHitungkpkBinding
 
-    private lateinit var binding:ActivityMainBinding
-
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
+                              savedInstanceState: Bundle?): View {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
-        binding.fpbButton.setOnClickListener{(hitungFpb())}
-        binding.kpkButton.setOnClickListener{(hitungKpk())}
+        binding = FragmentHitungkpkBinding.inflate(layoutInflater, container, false)
+        setHasOptionsMenu(true)
+        return binding.root
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        binding.fpbButton.setOnClickListener { (hitungFpb()) }
+        binding.kpkButton.setOnClickListener { (hitungKpk()) }
+    }
+
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        binding = FragmentHitungkpkBinding.inflate(layoutInflater)
+//
+//
+//        binding.fpbButton.setOnClickListener{(hitungFpb())}
+//        binding.kpkButton.setOnClickListener{(hitungKpk())}
+//    }
 
     private fun hitungKpk(){
         //mengambil angka dari inputan user
         val angkaSatu = binding.angkaSatuText.text.toString()
-        if(TextUtils.isEmpty(angkaSatu)){
-            Toast.makeText(this,R.string.angka_invalid, Toast.LENGTH_LONG).show()
-            return
-        }
-        val angkaDua = binding.angkaDuaText.text.toString()
-        if(TextUtils.isEmpty(angkaDua)){
-            Toast.makeText(this,R.string.angka_invalid, Toast.LENGTH_LONG).show()
-            return
 
-        }
+        val angkaDua = binding.angkaDuaText.text.toString()
+
 
 
         //merubah angka menjadi int
@@ -63,15 +68,9 @@ class MainActivity : AppCompatActivity() {
     private fun hitungFpb(){
         //mengambil angka dari yg di inputkan user
         val angkaSatu = binding.angkaSatuText.text.toString()
-        if(TextUtils.isEmpty(angkaSatu)){
-            Toast.makeText(this,R.string.angka_invalid, Toast.LENGTH_LONG).show()
-            return
-        }
+
         val angkaDua = binding.angkaDuaText.text.toString()
-        if(TextUtils.isEmpty(angkaDua)){
-            Toast.makeText(this,R.string.angka_invalid, Toast.LENGTH_LONG).show()
-            return
-        }
+
 
 
         //angka di rubah dari string ke int
@@ -90,7 +89,7 @@ class MainActivity : AppCompatActivity() {
 
         //hasil di rubah lagi menjadi string
         val finalSum = first.toString()
-        binding.hasilTextView.text = getString(R.string.hasilText_fpb,finalSum)
+        binding.hasilTextView.text = getString(R.string.hasilText_faktor,finalSum)
 
     }
 }

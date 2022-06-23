@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".perhitungan.HitungActivity">
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="600dp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/textView4"-->
+<!--        android:layout_marginStart="19dp"-->
+<!--        android:layout_marginTop="94dp"-->
+<!--        android:layout_toEndOf="@+id/imageView"-->
+<!--        android:text="@string/hitung1"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.152"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imageView" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginStart="31dp"-->
+<!--        android:layout_marginTop="29dp"-->
+<!--        android:layout_marginEnd="15dp"-->
+<!--        android:text="@string/intro"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.152"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imageView"-->
+<!--       />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="102dp"-->
+<!--        android:layout_height="99dp"-->
+<!--        android:layout_below="@+id/textView4"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="29dp"-->
+<!--        android:layout_marginTop="51dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+
+<!--        app:srcCompat="@drawable/logo" />-->
+
+    <Button
+        android:id="@+id/goBtn1"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="281dp"
+        android:layout_marginTop="622dp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/faktor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <Button
+        android:id="@+id/goBtn3"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="623dp"
+        android:layout_marginEnd="283dp"
+        android:text="@string/prima"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <Button
+        android:id="@+id/goBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="618dp"
+        android:layout_marginEnd="164dp"
+        android:text="@string/kpkfpb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+
+</RelativeLayout>
