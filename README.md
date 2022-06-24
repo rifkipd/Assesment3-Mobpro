@@ -1,4 +1,4 @@
-# Assesment2-MOBPRO
+# Assesment3-MOBPRO
 
 Aplikasi Perhitungan untuk mencari nilai FPB dan KPK sederhana
 
